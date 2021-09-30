@@ -1,4 +1,5 @@
 def make_repeater_of(n: int):
+    assert type(n) == int, "Repetidor funciona con números enteros 😶"
     def repeater(string: str) -> str:
         assert type(string) == str, "Solo puedes utilizar cadenas de texto 😄"
         return n*string
